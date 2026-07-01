@@ -21,6 +21,7 @@ modules:
     repos:
       copr:
         - hhd-dev/hhd
+        - avengemedia/dms
     install:
       packages:
         - hhd
