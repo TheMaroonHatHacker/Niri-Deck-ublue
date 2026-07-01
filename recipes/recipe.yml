@@ -20,10 +20,12 @@ modules:
   - type: dnf
     repos:
       copr:
-        - ublue-os/packages
+        - hhd-dev/hhd
     install:
       packages:
         - hhd
+        - adjustor
+        - hhd-ui
 
   - type: systemd
     system:
