@@ -1,8 +1,14 @@
 # Niri-Deck-ublue &nbsp; [![bluebuild build badge](https://github.com/themaroonhathacker/niri-deck-ublue/actions/workflows/build.yml/badge.svg)](https://github.com/themaroonhathacker/niri-deck-ublue/actions/workflows/build.yml)
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
+After seeing what Bazzite is doing, and not agreeing on their opinionated approach, I decided I'd put my own system together. 
 
-After setup, it is recommended you update this README to describe your custom image.
+The main aim is to retain Bazzite's Gaming Mode work, but everything else be a clean and simple base.
+
+This image uses Niri with Dank Material Shell, and is optimised to be a portable workstation OS that allows me to game and work away from my desk on my GPD Win 4 8840U. 
+
+The aim is to keep this image minimal. Any tools or applications should either be installed as a flatpak, or inside a distrobox container. 
+
+I've chosen the Liquorix kernel purely for desktop stability whilst I'm doing intensive tasks, as well as prioritising A/V workloads, as I do use this system for Music Production.
 
 ## Installation
 
