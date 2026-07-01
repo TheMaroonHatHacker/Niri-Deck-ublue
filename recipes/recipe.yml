@@ -22,7 +22,8 @@ modules:
       copr:
         - ublue-os/packages
     install:
-      - hhd
+      packages:
+        - hhd
 
   - type: systemd
     system:
