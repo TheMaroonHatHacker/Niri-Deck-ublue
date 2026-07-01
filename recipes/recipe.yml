@@ -27,5 +27,12 @@ modules:
         - hhd
         - adjustor
         - hhd-ui
-
+        - niri
+        - dms
+        - matugen
+        - quickshell-git
+        - cliphist
+  - type: script
+    scripts:
+      - configure-niri-dms.sh
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
