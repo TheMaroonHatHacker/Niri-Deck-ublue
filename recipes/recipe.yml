@@ -27,9 +27,4 @@ modules:
         - adjustor
         - hhd-ui
 
-  - type: systemd
-    system:
-      enabled:
-        - hhd@.service
-
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
