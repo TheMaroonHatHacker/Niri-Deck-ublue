@@ -19,8 +19,8 @@ modules:
 
   - type: dnf
     repos:
-      # The dnf module automatically swaps %OS_VERSION% for you
-      - https://copr.fedorainfracloud.org/coprs/ublue-os/packages/repo/fedora-%OS_VERSION%/ublue-os-packages-fedora-%OS_VERSION%.repo
+      copr:
+        - ublue-os/packages
     install:
       - hhd
 
