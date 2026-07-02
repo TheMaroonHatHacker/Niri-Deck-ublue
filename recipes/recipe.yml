@@ -32,6 +32,11 @@ modules:
         - matugen
         - quickshell-git
         - cliphist
+        - pipewire
+        - wireplumber
+        - pipewire-pulse
+        - seatd
+        - pipewire-jack
   - type: script
     scripts:
       - configure-niri-dms.sh
