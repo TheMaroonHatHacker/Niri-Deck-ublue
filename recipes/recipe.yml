@@ -37,4 +37,6 @@ modules:
         - pipewire-pulse
         - seatd
         - pipewire-jack-audio-connection-kit
+        - distrobox
+        - podman
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
