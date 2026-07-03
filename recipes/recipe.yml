@@ -31,6 +31,7 @@ modules:
         - dms
         - matugen
         - quickshell-git
+        - dms-greeter
         - cliphist
         - pipewire
         - wireplumber
@@ -39,4 +40,7 @@ modules:
         - pipewire-jack-audio-connection-kit
         - distrobox
         - podman
+  - type: script
+    scripts:
+      - setup-dms.sh
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
